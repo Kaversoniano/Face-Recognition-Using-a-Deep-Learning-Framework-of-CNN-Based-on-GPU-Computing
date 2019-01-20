@@ -10,7 +10,7 @@
 * Sample Size: 2414
 * Labels: 38 different people
 
-## Model Configurations
+### Model Configurations
 * Framework: a hybrid of convolutional layer, pooling layer, fully-connected layer, softmax layer
 * Local Receptive Field: 31x31
 * Feature Maps: 20
