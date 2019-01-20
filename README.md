@@ -17,7 +17,7 @@
 * Pooling Window: 2x2
 * Activation Function: Rectified Linear Unit
 * Other Hyperparameters:
- * mini batch size = 10
+  * mini batch size = 10
   * training epochs = 50
   * learning rate = 0.005
   * L2 regularization parameter = 0.5
