@@ -26,3 +26,7 @@
 ### Results:
 * in project `Yale.py`, best validation accuracy to date: 97.50% (49th epoch), its corresponding test accuracy: 98.06%
 * in project `Yale_expand.py`, best validation accuracy to date: 0.00% (?th epoch), its corresponding test accuracy: 0.00%
+
+### Artificial Expansion of Training Set:
+* training set size from 1690 to 6760
+* translation and rotation
