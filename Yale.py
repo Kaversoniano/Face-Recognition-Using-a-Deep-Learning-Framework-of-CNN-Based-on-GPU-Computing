@@ -1,10 +1,6 @@
 ### Environment Preparation
 import sys
-sys.path.append('F:/Python/neophyte/venv')
-sys.path.append('C:\\Users\\Kiano\\AppData\\Local\\Programs\\Python\\Python37-32\\Scripts')
-sys.path.append('C:\\Users\\Kiano\\AppData\\Local\\Programs\\Python\\Python37-32\\Lib\\site-packages')
-sys.path.append('C:\\Users\\Kiano\\AppData\\Roaming\\Python\\Python36\\Scripts')
-sys.path.append('C:\\Users\\Kiano\\AppData\\Roaming\\Python\\Python36\\site-packages')
+sys.path.append('...')
 
 import NN_CNN
 from NN_CNN import Network
@@ -42,7 +38,7 @@ labels = []
 
 for id in individuals:
     filename = []
-    for files in os.walk('F:\\Python\\face\\CroppedYale\\' + id):
+    for files in os.walk('...\\CroppedYale\\' + id):
         filename.append(files)
     imgname = [filename[0][2][k] for k in range(2, len(filename[0][2])-1)]
     labels.extend([id for k in range(len(imgname))])
