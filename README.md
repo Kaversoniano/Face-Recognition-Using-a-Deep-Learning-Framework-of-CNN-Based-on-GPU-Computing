@@ -12,10 +12,11 @@
 
 ### Model Configurations
 * Framework: a hybrid of convolutional layer, pooling layer, fully-connected layer, softmax layer
+* Activation Function: Rectified Linear Unit
+* Cost Function: Log-Likelihood
 * Local Receptive Field: 31x31
 * Feature Maps: 20
 * Pooling Window: 2x2
-* Activation Function: Rectified Linear Unit
 * Other Hyperparameters:
   * mini batch size = 10
   * training epochs = 50
