@@ -97,7 +97,7 @@ net = Network([ConvPoolLayer(image_shape=(mini_batch_size, 1, 192, 168),
 net.SGD(training_data, 50, mini_batch_size, 0.005, validation_data, test_data, lmbda = 0.5)
 
 # Logs:
-# best validation accuracy to date: 98.06% (49th epoch), its corresponding test accuracy: 97.78%
+# best validation accuracy to date: 98.06% (47th epoch), its corresponding test accuracy: 97.78%
 # learning rate 0.1 causes validation accuracy down to 2.5% (diverge)
 # adding extra ConvPoolLayer causes validation accuracy down to 2.5%
 # adding extra FullyConnectedLayer causes validation accuracy down to 4.75%
