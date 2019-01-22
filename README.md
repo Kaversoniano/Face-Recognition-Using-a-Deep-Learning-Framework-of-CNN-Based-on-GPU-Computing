@@ -25,7 +25,7 @@
   * dropout = 0.5
 
 ### Results
-* in project `Yale.py`, best validation accuracy to date: 97.50% (49th epoch), its corresponding test accuracy: 98.06%
+* in project `Yale.py`, best validation accuracy to date: 98.06% (49th epoch), its corresponding test accuracy: 97.78%
 * in project `Yale_expand.py`, best validation accuracy to date: 98.34% (47th epoch), its corresponding test accuracy: 98.34%
 
 ### Artificial Expansion of Training Set
